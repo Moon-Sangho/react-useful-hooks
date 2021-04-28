@@ -26,6 +26,7 @@ npm start
 <br>
 
 ## 1. useState를 이용한 Custom Hooks
+
 ### 1.1. useInput
 
 input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput Hook에 인자로 넣어줌으로써 원하는 validation을 적용 가능
@@ -37,6 +38,13 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 <br>
 
 ## 2. useEffect를 이용한 Custom Hooks
+
+<br>
+
 ### 2.1. useTitle
 
 웹 페이지의 타이틀을 유동적으로 변경할 수 있도록 하는 Hook으로, 타이틀 뿐만이 아니라 목적에 따라 특정 Element의 내용이 유동적으로 바뀌게끔 커스터마이징 가능
+
+### 2.2 useClick
+
+특정 Element를 클릭 했을 때 원하는 함수가 실행되게끔 처리한 Hook으로, useEffect Hook을 통해 click event listener 실행, 제거 처리를 해주었음
