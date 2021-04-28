@@ -47,6 +47,8 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 
 특정 Element를 클릭 했을 때 원하는 함수가 실행되게끔 처리한 Hook으로, useEffect Hook을 통해 click event listener 실행, 제거 처리를 해주었음
 
+<br>
+
 ## 3. 기타 Hooks
 
 ### 3.1 useConfirm
