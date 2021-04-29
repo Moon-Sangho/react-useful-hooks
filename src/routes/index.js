@@ -4,7 +4,8 @@ import UseTabComp from "../containers/useTabComp";
 import UseTitleComp from "../containers/useTitleComp";
 import UseClickComp from "../containers/useClickComp";
 import UseConfirmComp from "../containers/useConfirmComp";
-import UsePreventLeave from "../containers/usePreventLeave";
+import UsePreventLeaveComp from "../containers/usePreventLeaveComp";
+import useBeforeLeaveComp from "../containers/useBeforeLeaveComp";
 
 const Routes = () => {
   return (
@@ -15,7 +16,8 @@ const Routes = () => {
         <Route exact path="/useTitle" component={UseTitleComp} />
         <Route exact path="/useClick" component={UseClickComp} />
         <Route exact path="/useConfirm" component={UseConfirmComp} />
-        <Route exact path="/usePreventLeave" component={UsePreventLeave} />
+        <Route exact path="/usePreventLeave" component={UsePreventLeaveComp} />
+        <Route exact path="/useBeforeLeave" component={useBeforeLeaveComp} />
       </Switch>
     </Router>
   );

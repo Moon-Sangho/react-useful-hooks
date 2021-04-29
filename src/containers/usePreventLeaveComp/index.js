@@ -1,6 +1,6 @@
 import usePreventLeave from "../../hooks/usePreventLeave";
 
-const UsePreventLeave = () => {
+const UsePreventLeaveComp = () => {
   const { enablePrevent, disablePrevent } = usePreventLeave();
   return (
     <div>
@@ -10,4 +10,4 @@ const UsePreventLeave = () => {
   );
 };
 
-export default UsePreventLeave;
+export default UsePreventLeaveComp;

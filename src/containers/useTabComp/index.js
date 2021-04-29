@@ -15,7 +15,7 @@ const content = [
   },
 ];
 
-const UseTapComp = () => {
+const UseTabComp = () => {
   const { currentItem, changeItem } = useTabs(0, content);
 
   return (
@@ -30,4 +30,4 @@ const UseTapComp = () => {
   );
 };
 
-export default UseTapComp;
+export default UseTabComp;
