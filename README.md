@@ -51,6 +51,14 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 
 사용자의 마우스가 특정 위치를 벗어날 때마다, 원하는 함수를 실행시킬 수 있는 Hook
 
+### 2.4 useFadeIn
+
+특정 Element에 FadeIn 효과를 줄 수 있는 Hook. duration과 delay를 인자로 받으며, 사용할 때 함수의 인자로 각각 원하는 시간을 넘겨주면 된다.
+
+### 2.5 useNetwork
+
+브라우저의 온라인 여부를 판단해 주는 Hook. 온라인 여부에 따라 원하는 작업을 수행하도록 할 수 있다.
+
 <br>
 
 ## 3. 기타 Hooks

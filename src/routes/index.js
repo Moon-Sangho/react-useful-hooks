@@ -5,7 +5,9 @@ import UseTitleComp from "../containers/useTitleComp";
 import UseClickComp from "../containers/useClickComp";
 import UseConfirmComp from "../containers/useConfirmComp";
 import UsePreventLeaveComp from "../containers/usePreventLeaveComp";
-import useBeforeLeaveComp from "../containers/useBeforeLeaveComp";
+import UseBeforeLeaveComp from "../containers/useBeforeLeaveComp";
+import UseFadeInComp from "../containers/useFadeInComp";
+import UseNetworkComp from "../containers/useNetworkComp";
 
 const Routes = () => {
   return (
@@ -17,7 +19,9 @@ const Routes = () => {
         <Route exact path="/useClick" component={UseClickComp} />
         <Route exact path="/useConfirm" component={UseConfirmComp} />
         <Route exact path="/usePreventLeave" component={UsePreventLeaveComp} />
-        <Route exact path="/useBeforeLeave" component={useBeforeLeaveComp} />
+        <Route exact path="/useBeforeLeave" component={UseBeforeLeaveComp} />
+        <Route exact path="/useFadeIn" component={UseFadeInComp} />
+        <Route exact path="/useNetwork" component={UseNetworkComp} />
       </Switch>
     </Router>
   );
