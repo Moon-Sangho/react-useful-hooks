@@ -8,6 +8,8 @@ import UsePreventLeaveComp from "../containers/usePreventLeaveComp";
 import UseBeforeLeaveComp from "../containers/useBeforeLeaveComp";
 import UseFadeInComp from "../containers/useFadeInComp";
 import UseNetworkComp from "../containers/useNetworkComp";
+import UseScrollComp from "../containers/useScrollComp";
+import UseFullScreenComp from "../containers/useFullScreenComp";
 
 const Routes = () => {
   return (
@@ -22,6 +24,8 @@ const Routes = () => {
         <Route exact path="/useBeforeLeave" component={UseBeforeLeaveComp} />
         <Route exact path="/useFadeIn" component={UseFadeInComp} />
         <Route exact path="/useNetwork" component={UseNetworkComp} />
+        <Route exact path="/useScroll" component={UseScrollComp} />
+        <Route exact path="/useFullScreen" component={UseFullScreenComp} />
       </Switch>
     </Router>
   );

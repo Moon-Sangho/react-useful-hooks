@@ -1,4 +1,3 @@
-import React from "react";
 import useBeforeLeave from "../../hooks/useBeforeLeave";
 
 const UseBeforeLeaveComp = () => {
