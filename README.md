@@ -59,6 +59,10 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 
 브라우저의 온라인 여부를 판단해 주는 Hook. 온라인 여부에 따라 원하는 작업을 수행하도록 할 수 있다.
 
+### 2.6 useScroll
+
+현재 스크롤 위치에 따라 element의 스타일을 다르게 지정할 수 있도록 하는 Hook.
+
 <br>
 
 ## 3. 기타 Hooks
@@ -70,3 +74,8 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 ### 3.2 usePreventLeave
 
 사용자가 웹 페이지를 벗어나려고 하거나, 새로고침 할 때 dialog를 띄워 실행 여부를 묻도록 함
+
+### 3.3 useFullScreen
+
+버튼 클릭 시 이미지 등을 전체화면으로 키울 수 있도록 하는 Hook.
+
