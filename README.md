@@ -79,3 +79,6 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 
 버튼 클릭 시 이미지 등을 전체화면으로 키울 수 있도록 하는 Hook.
 
+### 3.4 useNotification
+
+사용자에게 알림을 띄울 수 있도록 하는 Hook.
