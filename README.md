@@ -63,6 +63,10 @@ input 태그에 사용할 수 있으며, validator 함수를 만들어 useInput 
 
 현재 스크롤 위치에 따라 element의 스타일을 다르게 지정할 수 있도록 하는 Hook.
 
+### 2.7 useAxios
+
+axios를 통한 데이터 요청 코드를 모듈화하여 코드의 중복성을 최소화할 수 있도록 하는 Hook.
+
 <br>
 
 ## 3. 기타 Hooks

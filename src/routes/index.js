@@ -11,6 +11,7 @@ import UseNetworkComp from "../containers/useNetworkComp";
 import UseScrollComp from "../containers/useScrollComp";
 import UseFullScreenComp from "../containers/useFullScreenComp";
 import UseNotificationComp from "../containers/useNotificationComp";
+import UseAxiosComp from "../containers/useAxiosComp";
 
 const Routes = () => {
   return (
@@ -28,6 +29,7 @@ const Routes = () => {
         <Route exact path="/useScroll" component={UseScrollComp} />
         <Route exact path="/useFullScreen" component={UseFullScreenComp} />
         <Route exact path="/useNotification" component={UseNotificationComp} />
+        <Route exact path="/useAxios" component={UseAxiosComp} />
       </Switch>
     </Router>
   );
