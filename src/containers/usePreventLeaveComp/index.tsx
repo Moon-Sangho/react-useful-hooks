@@ -1,4 +1,4 @@
-import usePreventLeave from "../../hooks/usePreventLeave";
+import usePreventLeave from '../../hooks/usePreventLeave';
 
 const UsePreventLeaveComp = () => {
   const { enablePrevent, disablePrevent } = usePreventLeave();
