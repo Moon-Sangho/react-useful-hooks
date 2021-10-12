@@ -1,8 +1,8 @@
-import useNotification from "../../hooks/useNotification";
+import useNotification from '../hooks/useNotification';
 
 const UseNotificationComp = () => {
-  const triggerNotif = useNotification("Hello", {
-    body: "hello2",
+  const triggerNotif = useNotification('Hello', {
+    body: 'hello2',
   });
   return <button onClick={triggerNotif}>hello</button>;
 };

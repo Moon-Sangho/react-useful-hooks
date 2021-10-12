@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import useTitle from '../../hooks/useTitle';
+import useTitle from '../hooks/useTitle';
 
 const UseTitleComp = () => {
   const titleUpdator = useTitle('Loading...');

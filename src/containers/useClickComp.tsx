@@ -1,4 +1,4 @@
-import useClick from '../../hooks/useClick';
+import useClick from '../hooks/useClick';
 
 const UseClickComp = () => {
   const sayHello = () => alert('hello');

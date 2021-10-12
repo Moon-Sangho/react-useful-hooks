@@ -1,4 +1,4 @@
-import useNetwork from '../../hooks/useNetwork';
+import useNetwork from '../hooks/useNetwork';
 
 const UseNetworkComp = () => {
   const handleNetworkChange = (online: boolean) => {

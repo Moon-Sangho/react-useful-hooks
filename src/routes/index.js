@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import UseInputComp from "../containers/useInputComp";
-import UseTabComp from "../containers/useTabComp";
-import UseTitleComp from "../containers/useTitleComp";
-import UseClickComp from "../containers/useClickComp";
-import UseConfirmComp from "../containers/useConfirmComp";
-import UsePreventLeaveComp from "../containers/usePreventLeaveComp";
-import UseBeforeLeaveComp from "../containers/useBeforeLeaveComp";
-import UseFadeInComp from "../containers/useFadeInComp";
-import UseNetworkComp from "../containers/useNetworkComp";
-import UseScrollComp from "../containers/useScrollComp";
-import UseFullScreenComp from "../containers/useFullScreenComp";
-import UseNotificationComp from "../containers/useNotificationComp";
-import UseAxiosComp from "../containers/useAxiosComp";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import UseInputComp from '../containers/useInputComp';
+import UseTabComp from '../containers/useTabComp';
+import UseTitleComp from '../containers/useTitleComp';
+import UseClickComp from '../containers/useBeforeLeaveComp';
+import UseConfirmComp from '../containers/useConfirmComp';
+import UsePreventLeaveComp from '../containers/usePreventLeaveComp';
+import UseBeforeLeaveComp from '../containers/useBeforeLeaveComp';
+import UseFadeInComp from '../containers/useFadeInComp';
+import UseNetworkComp from '../containers/useNetworkComp';
+import UseScrollComp from '../containers/useScrollComp';
+import UseFullScreenComp from '../containers/useFullScreenComp';
+import UseNotificationComp from '../containers/useNotificationComp';
+import UseAxiosComp from '../containers/useAxiosComp';
 
 const Routes = () => {
   return (

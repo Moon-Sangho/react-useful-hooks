@@ -1,4 +1,4 @@
-import useBeforeLeave from '../../hooks/useBeforeLeave';
+import useBeforeLeave from '../hooks/useBeforeLeave';
 
 const UseBeforeLeaveComp = () => {
   const begForNotLeave = () => console.log('Pls dont leave');

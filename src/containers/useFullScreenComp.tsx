@@ -1,4 +1,4 @@
-import useFullScreen from '../../hooks/useFullScreen';
+import useFullScreen from '../hooks/useFullScreen';
 
 const UseFullScreenComp = () => {
   const { element, isFull, triggerFull, exitFull } = useFullScreen();

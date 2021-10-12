@@ -1,5 +1,5 @@
-import { LIST_MOVIES_URL } from '../../constants';
-import useAxios from '../../hooks/useAxios';
+import { LIST_MOVIES_URL } from '../constants';
+import useAxios from '../hooks/useAxios';
 
 const UseAxiosComp = () => {
   const { loading, error, data, refetch } = useAxios({ url: LIST_MOVIES_URL });

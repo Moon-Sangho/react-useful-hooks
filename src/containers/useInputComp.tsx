@@ -1,4 +1,4 @@
-import useInput from '../../hooks/useInput';
+import useInput from '../hooks/useInput';
 
 const UseInputComp = () => {
   const maxLen = (value: string) => value.length <= 10;

@@ -1,4 +1,4 @@
-import useTabs from '../../hooks/useTabs';
+import useTabs from '../hooks/useTabs';
 
 const contents = [
   {
