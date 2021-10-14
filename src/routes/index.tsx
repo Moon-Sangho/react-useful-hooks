@@ -12,12 +12,14 @@ import UseScrollComp from '../containers/useScrollComp';
 import UseFullScreenComp from '../containers/useFullScreenComp';
 import UseNotificationComp from '../containers/useNotificationComp';
 import UseAxiosComp from '../containers/useAxiosComp';
+import Home from '../containers/Home';
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={UseInputComp} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/useInput" component={UseInputComp} />
         <Route exact path="/useTab" component={UseTabComp} />
         <Route exact path="/useTitle" component={UseTitleComp} />
         <Route exact path="/useClick" component={UseClickComp} />
