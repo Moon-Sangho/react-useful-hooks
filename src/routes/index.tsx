@@ -15,8 +15,9 @@ import UseAxiosComp from '../containers/useAxiosComp';
 import Home from '../containers/Home';
 import styled from '@emotion/styled';
 import { useHistory } from 'react-router';
+import Button from '@mui/material/Button';
 
-const NavigationBar = () => {
+const SideBar = () => {
   const history = useHistory();
 
   const routesArray = [
@@ -36,7 +37,7 @@ const NavigationBar = () => {
   ];
 
   return (
-    <div>
+    <SideContainer>
       {routesArray.map((item) => {
         let path = item;
 
@@ -44,9 +45,9 @@ const NavigationBar = () => {
           path = '';
         }
 
-        return <Button onClick={() => history.push(`/${path}`)}>{item}</Button>;
+        return <Btn variant="text" onClick={() => history.push(`/${path}`)}>{item}</Btn>;
       })}
-    </div>
+    </SideContainer>
   );
 };
 
@@ -54,7 +55,7 @@ const Routes = () => {
   return (
     <Router>
       <Container>
-        <NavigationBar />
+        <SideBar />
         <Main>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -94,13 +95,23 @@ export default Routes;
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
 `;
 
-const Button = styled.button`
-  margin: 10px 10px 0 0;
+const SideContainer = styled.div`
+  width: 150px;
+  border: 1px solid #1A76D2;
+  border-radius: 5px;
+`;
+
+const Btn = styled(Button)`
+  margin: 5px;
+  text-transform: none;
 `;
 
 const Main = styled.main`
-  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 10px;
 `;
