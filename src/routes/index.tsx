@@ -45,7 +45,11 @@ const SideBar = () => {
           path = '';
         }
 
-        return <Btn variant="text" onClick={() => history.push(`/${path}`)}>{item}</Btn>;
+        return (
+          <Btn variant="text" onClick={() => history.push(`/${path}`)}>
+            {item}
+          </Btn>
+        );
       })}
     </SideContainer>
   );
@@ -95,23 +99,29 @@ export default Routes;
 
 const Container = styled.div`
   display: flex;
+  height: 100vh;
 `;
 
 const SideContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 150px;
-  border: 1px solid #1A76D2;
+  height: 480px;
+  border: 1px solid #1a76d2;
   border-radius: 5px;
 `;
 
 const Btn = styled(Button)`
-  margin: 5px;
+  width: 100%;
   text-transform: none;
 `;
 
 const Main = styled.main`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: calc(100% - 150px);
   margin-left: 10px;
 `;

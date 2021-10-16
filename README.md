@@ -4,16 +4,16 @@
 
 <br>
 
-## Usage
+## 실행
 
 ```
-yarn install
-yarn start
+$ yarn install
+$ yarn start
 
 or
 
-npm install
-npm start
+$ npm install
+$ npm start
 ```
 
 - hooks 폴더에 custom hook 위치 <br>
