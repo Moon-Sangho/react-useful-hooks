@@ -3,6 +3,20 @@ import styled from '@emotion/styled';
 const Home = () => {
   return (
     <Container>
+      <TopBar>
+        <Logo alt="nomad-corders-logo" src="https://nomadcoders.co/m.svg" />
+        <MainTitle
+          href="https://nomadcoders.co/react-hooks-introduction"
+          target="_blank"
+        >
+          실전형 리액트 Hooks - nomad corders
+        </MainTitle>
+      </TopBar>
+      <Description>
+        노마드 코더의 강의를 참고하여 제작되었으며, JavaScript로 작업 후
+        개인적으로 TypeScript 마이그레이션을 진행하였습니다. <br /> <br /> 위
+        링크를 클릭하시면 강의 페이지로 이동합니다.
+      </Description>
       <Section>
         <Title>1. useState를 이용한 Custom Hooks</Title>
         {Object.entries(DATA.useStateHooks).map((item) => (
@@ -38,6 +52,28 @@ export default Home;
 
 const Container = styled.div`
   height: 100%;
+`;
+
+const TopBar = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+`;
+
+const Logo = styled.img`
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+`;
+
+const MainTitle = styled.a`
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+`;
+
+const Description = styled.p`
+  margin-bottom: 50px;
 `;
 
 const Title = styled.h1`

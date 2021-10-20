@@ -99,7 +99,7 @@ export default Routes;
 
 const Container = styled.div`
   display: flex;
-  height: 100vh;
+  height: 100%;
 `;
 
 const SideContainer = styled.div`
